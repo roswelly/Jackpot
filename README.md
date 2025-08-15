@@ -2,6 +2,11 @@
 
 A sophisticated liquid staking program for the Solana blockchain built using the Anchor framework. This project allows users to stake SOL tokens and receive liquid staking derivatives (mSOL) in return, providing immediate liquidity while earning staking rewards.
 
+## Contact
+
+-[telegram](https://t.me/roswellecho)
+-[twitter](https://x.com/roswellecho)
+
 ## Features
 
 - **Liquid Staking**: Convert SOL to mSOL for immediate liquidity
