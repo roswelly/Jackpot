@@ -1,37 +1,27 @@
-# Jackpot Game – On-Chain Gambling DApp (Solana / EVM Compatible)
+# marinade-anchor
+Marinade-finance liquid staking program for the Solana blockchain
 
-A provably fair and fully on-chain **Jackpot Game** smart contract with frontend integration. Players deposit tokens, and once the pot fills, a winner is randomly selected to win the jackpot. Built for fun, transparency, and fast blockchain games.
+# Audits & Code Review
 
----
+## 2023-11-14 : upgrade with Anchor v0.27.0, version v2.0
 
-## Features
+commit: [`1bd5133`](https://github.com/marinade-finance/liquid-staking-program/pull/8)
 
-- **Decentralized Jackpot Game Logic**
-- **Multi-token support** (SOL, ETH, SPL, ERC-20, etc.)
-- **Provably fair winner selection**
-- Built with **Anchor (Solana)** or **Hardhat (EVM)**
-- Fully tested smart contract & frontend integration
-- Real-time updates with WebSockets or event listeners
+* Neodyme: https://marinade.finance/docs/Neodyme_2023.pdf
+* Sec3: https://marinade.finance/docs/Sec3_2023.pdf
 
----
+## Q4/2021
 
-## 🛠 Tech Stack
+* Kudelski Security: https://marinade.finance/docs/KudelskiSecurity.pdf 
+* Ackee Blockchain: https://marinade.finance/docs/AckeeBlockchain.pdf
+* Neodyme: https://marinade.finance/docs/Neodyme.pdf
 
-- **Solana + Anchor** or **Ethereum + Hardhat**
-- **Rust / Solidity**
-- **React / Next.js Frontend**
-- **Web3.js / Ethers.js**
-- **TypeScript**
-- Optional: Chainlink VRF, Switchboard, or custom randomness
+# Documentation
 
----
+[Marinade Finance Docs](https://docs.marinade.finance)
 
-## Security Notes
-This project is intended as a proof of concept. Before deploying to mainnet:
+[Backend Design](Docs/Backend-Design.md)
 
-- Use secure randomness (Chainlink/Switchboard)
+# Integration Testing
 
-- Audit the smart contract logic
-
-- Add anti-bot and rate limiting protections
-
+Note: integration tests are not included in this repo. Tests will be published later.
